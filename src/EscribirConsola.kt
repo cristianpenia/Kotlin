@@ -1,12 +1,18 @@
 fun main() {
-    println("Agrega el primer valor")
 
-    val n1 = readln().toInt()
+    try {
+        println("Agrega el primer valor")
 
-    println("Agrega el segundo valor")
+        val n1 = readln().toInt()
 
-    val n2 = readln().toInt()
-    val res = n1 + n2
+        println("Agrega el segundo valor")
 
-    println("la suma de tus dos valores es $res")
+        val n2 = readln().toInt()
+        val res = n1 + n2
+
+        println("la suma de tus dos valores es $res")
+    } catch (e: NumberFormatException) {
+
+        println("Escribe un numero valido \nError: $e")
+    }
 }
