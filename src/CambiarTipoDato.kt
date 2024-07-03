@@ -20,7 +20,9 @@ fun main() {
 
     val result = hello.plus(" ").plus(world).plus(" \nsalto de linea")
 
-    val txtArray = arrayOf("Hello","world")
+    val txtArray = arrayOf("Hello", "world")
     val resTxtArray = txtArray.joinToString(" ")
 
     println(resTxtArray)
+
+}
