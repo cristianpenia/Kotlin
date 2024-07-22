@@ -3,10 +3,10 @@ fun main() {
 
     println(numeros)
     println(numeros[0])
-
     println(numeros.size)
 
     val list = mutableListOf(1,2,3,4,5,6)
+
     list.add(6)
     list.remove(3)
 

@@ -1,4 +1,5 @@
 fun main() {
+
     var array = arrayOf("Luis", "Mario", 3, 4.7, false, "Hola")
 
     println(array.contentToString())

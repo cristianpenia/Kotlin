@@ -12,18 +12,22 @@ fun main() {
 
     // MAP
     println("----------------- MAP -----------------")
+
     val listaPersonas = personas.map { it.nombre }
+
     println(listaPersonas)
 
     var multiplicar = personas.map { it.edad * 2 }
+
     println(multiplicar)
 
     val sumaEdades = personas.map { it.edad }.sum()
+
     println(sumaEdades)
 
     val palabras = listOf("hola", "mundo", "kotilin")
     val sumaPalabras = palabras.map { it.length }
+
     println(sumaPalabras)
 
-    
 }

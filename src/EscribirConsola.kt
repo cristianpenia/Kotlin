@@ -17,8 +17,8 @@ fun main() {
             n2 = readln().toDouble()
             res = n1 + n2
 
-            println("la suma de tus dos valores es $res \n" +
-                    "\n")
+            println("la suma de tus dos valores es $res \n" + "\n")
+
         } catch (e: NumberFormatException) {
 
             println("Escribe un numero valido \nError: $e\n\n")

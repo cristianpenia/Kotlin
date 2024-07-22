@@ -24,11 +24,13 @@ class Usuarios(private var name: String, private  var email: String){
 
 fun main() {
     val personas = Personas(nombre = "Cristian", edad = 26)
+
     println(personas.nombre)
     println(personas.edad)
     println(personas.hola())
 
     val user = Usuarios(name = "Rufus", email = "rufus_king@gmail.com")
+
     println(user.login())
 }
 

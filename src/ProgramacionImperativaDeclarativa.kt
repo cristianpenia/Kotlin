@@ -5,10 +5,12 @@ fun main() {
     // tradicional, donse se ejecuta paso a paso
     val num = listOf(1,2,3,4,5)
     val res = sumarLista(num)
+
     println(res)
 
     val pares = listOf(2,3,8,12,16,15)
     val res2 = filtrarPares(pares)
+
     println(res2)
 
     // programacion declarativa o funcinal
@@ -23,6 +25,7 @@ fun sumarLista(lista: List<Int>): Int {
 
     // programacion imperativa
     var resultado = 0
+
     for (i in lista) {
         resultado += 1
     }
@@ -46,7 +49,6 @@ fun filtrarPares(lista:List<Int>): List<Int> {
     }
 
 //    return resultado
-
 
     // programacion declarativa o funcional
     return lista.filter { it % 2 == 0 }.toList()
